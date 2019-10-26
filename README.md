@@ -2,7 +2,7 @@
 Simple script that animates on top of gif
 
 # Usage
-```js
+```C
 // Example entities
 var e0 = {
     id: 'tag-0',
