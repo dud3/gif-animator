@@ -17,7 +17,7 @@ var gifBuilder = new gifBuilder(gif);
 
 // Config
 gif.main({
-    src: window.location.protocol + '//' + window.location.host + '/teng-animation-stripped-optimized.gif',
+    src: _gif_src_ // replace me
     width: 500,
     height: 500,
     entities: ge,
@@ -26,4 +26,6 @@ gif.main({
         after: 46.67
     }
 });
+
+// window.location.protocol + '//' + window.location.host + '/teng-animation-stripped-optimized.gif',
 ```
